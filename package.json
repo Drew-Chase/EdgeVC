@@ -1,0 +1,25 @@
+{
+  "name": "edge_vc",
+  "version": "0.0.1",
+  "description": "Allows you to shrink any video file to its smallest size without compromising quality, and does so in mass.",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DcmanProductions/EdgeVC.git"
+  },
+  "author": "Drew Chase",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DcmanProductions/EdgeVC/issues"
+  },
+  "homepage": "https://github.com/DcmanProductions/EdgeVC#readme",
+  "devDependencies": {
+    "electron": "^11.0.3"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
