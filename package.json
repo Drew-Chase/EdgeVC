@@ -4,7 +4,7 @@
   "description": "Allows you to shrink any video file to its smallest size without compromising quality, and does so in mass.",
   "main": "main.js",
   "scripts": {
-    "test": "electron ."
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/DcmanProductions/EdgeVC#readme",
   "devDependencies": {
-    "electron": "^11.0.3"
+    "electron": "^11.0.3",
+    "electron-builder": "^22.9.1"
   },
   "dependencies": {
-    "fluent-ffmpeg": "^2.1.2"
+    "bootstrap": "^4.5.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "jquery": "^3.5.1"
   }
 }
