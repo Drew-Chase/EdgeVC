@@ -1,0 +1,40 @@
+#nav{
+    transition: .5s;
+    background-color: #0c0c0c;
+    position: absolute;
+    left: 0px;
+    height:calc(100vh - 40px);
+    top: 40px;
+    z-index: 1;
+}
+#nav.navigation-collapsed{
+    width: 45px;
+}
+
+#nav.navigation-expanded{
+    width: 200px;
+}
+
+#nav .menuItem .ItemTitle{
+    margin-bottom: -35px;
+    padding-left: 55px;
+    padding-top: 15px;
+    overflow: hidden;
+}
+#nav.navigation-collapsed .menuItem .ItemTitle{
+    display: none;
+}
+
+#nav .menuItem:hover{
+    background-color: rgba(138, 138, 138, 0.5);
+    color: #ffffff;
+    cursor: pointer;
+}
+#nav .menuItem{
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#nav .menuItem .ItemIcon{
+    padding: 15px;
+}
