@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/DcmanProductions/EdgeVC#readme",
   "devDependencies": {
-    "electron": "^11.0.3",
+    "electron": "^22.3.21",
     "electron-builder": "^22.9.1"
   },
   "dependencies": {
